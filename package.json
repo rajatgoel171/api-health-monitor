@@ -1,0 +1,16 @@
+{
+  "name": "api-health-monitor",
+  "version": "1.0.0",
+  "description": "CLI tool for API latency, uptime, and health checks.",
+  "type": "module",
+  "scripts": {
+    "demo": "node src/cli.js --url https://example.com --samples 2",
+    "test": "node --test"
+  },
+  "bin": {
+    "api-health-monitor": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
