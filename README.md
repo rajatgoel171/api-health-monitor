@@ -52,8 +52,3 @@ node src/cli.js --url https://example.com --samples 3
 
 
 
-
-## Progress Note 10
-
-- 2026-04-14: documented service readiness, implementation progress, and release hygiene for api-health-monitor.
-- Captured validation notes for observability, operational checks, and handoff readiness.
